@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>DOM task01 </title>
+<style>
+*{
+margin:100px;
+}
+
+
+</style>	   
+</head>
+ <body>
+      <button onclick="one(a+=1)">+ </button>
+	   <input type="text" id="output">
+	   <button onclick="one(a-=1)">-</button>
+		
+		
+       <script>
+	   let a=0;
+	    <!-- let ButtonElement=document.createElement('button'); -->
+		  <!-- ButtonElement.innerText="+"; -->
+		   <!-- ButtonElement.setAttribute("onclick","one(a+=1)"); -->
+		    <!-- document.body.appendChild(ButtonElement); -->
+	
+		 <!-- let InputElement=document.createElement('input'); -->
+		  <!-- InputElement.setAttribute("id","output"); -->
+		   <!-- document.body.appendChild(InputElement); -->
+		 
+		  <!-- let ButtonsElement=document.createElement('button'); -->
+		   <!-- ButtonsElement.innerText="-"; -->
+		     <!-- ButtonsElement.setAttribute("onclick","one(a-=1)"); -->
+		   <!-- document.body.appendChild(ButtonsElement); -->
+		  
+		  function one(a){
+		    if(a>=0){
+			document.getElementById("output").value=a;
+			  console.log(a);
+			}
+		  }
+     
+		
+		
+</script>
+</body>
+</html>
